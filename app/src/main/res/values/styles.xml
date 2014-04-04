@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    </style>
+
+    <style name="CalButtonStyle">
+        <item name="android:background">@drawable/button_background_transparent</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+</resources>

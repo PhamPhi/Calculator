@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- colors for button text's states -->
+    <color name="button_text_normal">#ffdcdcdc</color>
+    <color name="button_text_pressed">#ff00b1dc</color>
+    <color name="button_text_hovered">#ff3bb7dc</color>
+
+    <color name="edit_text_display">#ff00c6dc</color>
+    <color name="main_background_start">#ffba515d</color>
+    <color name="main_background_end">#ffba3c80</color>
+</resources>
