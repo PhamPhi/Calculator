@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              android:layout_weight="1"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.techie.calculator.app.views.ColorButton
+            android:id="@+id/sin"
+            style="@style/CalButtonStyle"
+            android:contentDescription="@string/sinDesc"
+            android:text="@string/sin"/>
+
+        <com.techie.calculator.app.views.ColorButton
+            android:id="@+id/cos"
+            style="@style/CalButtonStyle"
+            android:contentDescription="@string/cosDesc"
+            android:text="@string/cos"/>
+
+        <com.techie.calculator.app.views.ColorButton
+            android:id="@+id/tan"
+            style="@style/CalButtonStyle"
+            android:contentDescription="@string/tanDesc"
+            android:text="@string/tan"/>
+
+        <com.techie.calculator.app.views.ColorButton
+            android:id="@+id/pi"
+            style="@style/CalButtonStyle"
+            android:contentDescription="@string/piDesc"
+            android:text="@string/pi"/>
+
+        <com.techie.calculator.app.views.ColorButton
+            android:id="@+id/factorial"
+            style="@style/CalButtonStyle"
+            android:contentDescription="@string/factorialDesc"
+            android:text="@string/factorial"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.techie.calculator.app.views.ColorButton
+            android:id="@+id/ln"
+            style="@style/CalButtonStyle"
+            android:contentDescription="@string/lnDesc"
+            android:text="@string/ln"/>
+
+        <com.techie.calculator.app.views.ColorButton
+            android:id="@+id/lg"
+            style="@style/CalButtonStyle"
+            android:contentDescription="@string/lgDesc"
+            android:text="@string/log"/>
+
+        <com.techie.calculator.app.views.ColorButton
+            android:id="@+id/e"
+            style="@style/CalButtonStyle"
+            android:contentDescription="@string/eDesc"
+            android:text="@string/e"/>
+
+        <com.techie.calculator.app.views.ColorButton
+            android:id="@+id/power"
+            style="@style/CalButtonStyle"
+            android:contentDescription="@string/powerDesc"
+            android:text="@string/power"/>
+
+        <com.techie.calculator.app.views.ColorButton
+            android:id="@+id/sqrt"
+            style="@style/CalButtonStyle"
+            android:contentDescription="@string/sqrtDesc"
+            android:text="@string/sqrt"/>
+    </LinearLayout>
+</LinearLayout>

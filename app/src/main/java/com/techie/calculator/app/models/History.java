@@ -26,7 +26,7 @@ import java.util.Vector;
 public class History {
     private static final int VERSION_1= 1;
     private static final int  MAX_ENTRIES= 100;
-    private Vector<HistoryEntry> mEntries = new Vector<HistoryEntry>();
+    public Vector<HistoryEntry> mEntries = new Vector<HistoryEntry>();
 
     private int mPosition;
     private BaseAdapter mObserver;
@@ -101,7 +101,18 @@ public class History {
         notifyChanged();
     }
 
-    public void onClearHistory(){
+    public String getText(){
+        return getCurrent().getModifiedContent();
+    }
 
+    public String getBaseContent(){
+        return getCurrent().getBaseContent();
+    }
+
+    public void onClearHistory(){
+        mEntries.clear();
+        mEntries.add(new HistoryEntry(""));
+        mPosition = 0;
+        notifyChanged();
     }
 }

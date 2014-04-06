@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="digit0">0</string>
+    <string name="digit1">1</string>
+    <string name="digit2">2</string>
+    <string name="digit3">3</string>
+    <string name="digit4">4</string>
+    <string name="digit5">5</string>
+    <string name="digit6">6</string>
+    <string name="digit7">7</string>
+    <string name="digit8">8</string>
+    <string name="digit9">9</string>
+
+    <!-- operations symbols -->
+    <string name="delte">DELETE</string>
+    <string name="clear">CLEAR</string>
+    <string name="mul">\u00d7</string>
+    <string name="div">\u00f7</string>
+    <string name="minus">\u2212</string>
+    <string name="plus">+</string>
+    <string name="dot">.</string>
+    <string name="equal">=</string>
+    <string name="enter">\u2193</string>
+
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="pi">\u03c0</string>
+    <string name="e">e</string>
+    <string name="ln">ln</string>
+
+    <string translate="false" name="sin_mathematical_value">sin</string>
+    <string translate="false" name="cos_mathematical_value">cos</string>
+    <string translate="false" name="tan_mathematical_value">tan</string>
+    <string translate="false" name="e_mathematical_value">e</string>
+    <string translate="false" name="ln_mathematical_value">ln</string>
+    <string name="log">log</string>
+    <string translate="false" name="lg_mathematical_value">lg</string>
+    <string name="lefParen">(</string>
+    <string name="rightParen">)</string>
+    <string name="sqrt">\u221a</string>
+    <string name="power">^</string>
+    <string name="factorial">!</string>
+    <string name="copied_message_toast">The content copied.</string>
+
+    <string name="leftParenDesc">left parenthesis</string>
+    <string name="rightParenDesc">Right parenthesis</string>
+    <string name="factorialDesc">factorial</string>
+    <string name="lnDesc">natural logarithm</string>
+    <string name="lgDesc">logarithm</string>
+    <string name="sqrtDesc">square root</string>
+    <string name="plusDesc">plus</string>
+    <string name="minusDesc">minus</string>
+    <string name="mulDesc">multiply</string>
+    <string name="divDesc">Divider</string>
+    <string name="dotDesc">point</string>
+    <string name="delDesc">delete</string>
+    <string name="clrDsc">clear</string>
+    <string name="tanDesc">tangent</string>
+    <string name="sinDesc">sin</string>
+    <string name="cosDesc">cos</string>
+    <string name="eDesc">Euler\'s number</string>
+    <string name="piDesc">pi</string>
+    <string name="equalDesc">equals</string>
+    <string name="powerDesc">power</string>
+</resources>
