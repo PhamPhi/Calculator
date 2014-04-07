@@ -2,7 +2,18 @@
 <resources>
 
     <string name="app_name">Calculator</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="intro_message">
+        <![CDATA[
+             The Calculator Project was created by Larry Pham, cooperated with Mr.Hoa.
+             Everything will be reused for better future.
+        ]]>
+    </string>
+    <string name="error">Issue</string>
+    <!-- menu content strings -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="basic_menu_item">Basic</string>
+    <string name="advanced_menu_item">Advanced</string>
+    <string name="clear_history_menu_item">Clear History</string>
 
 </resources>

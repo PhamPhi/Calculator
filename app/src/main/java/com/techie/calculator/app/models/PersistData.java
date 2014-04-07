@@ -31,8 +31,9 @@ public class PersistData {
     private static final String FILE_NAME= "calapp.techie"; // the persistent directory for storing the Persistent data
     private Context context;
 
-    private History history = new History(); // The persistent data for storing the history of operations and determinations.
+    public History history = new History(); // The persistent data for storing the history of operations and determinations.
     private int mDeleteMode; // The mode of the button 'delete' used to delete the excess character or returnning back the screen display..
+    private int deleteMode;
 
     /**
      * constructor used to initialize the Application Context and basing on this constructor, we can reuse the PeristData throught out
@@ -79,5 +80,9 @@ public class PersistData {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public int getDeleteMode() {
+        return deleteMode;
     }
 }

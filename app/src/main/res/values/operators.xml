@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="operators" translatable="false">
+        <item>(</item>
+        <item>)</item>
+        <item>!</item>
+        <item>ln</item>
+        <item>log</item>
+        <item>\u221a</item>
+        <item>\u00f7</item>
+        <item>\u00d7</item>
+        <item>+</item>
+        <item>\u2212</item>
+        <item>.</item>
+        <item>^</item>
+        <item>tan</item>
+        <item>sin</item>
+        <item>cos</item>
+        <item>\u03c0</item>
+        <item>=</item>
+    </string-array>
+
+    <string-array name="operatorDescs">
+        <item>left parenthesis</item>
+        <item>right parenthesis</item>
+        <item>factorial</item>
+        <item>natural algorithm</item>
+        <item>logarithm</item>
+        <item>square root</item>
+        <item>divided by</item>
+        <item>multiplied by</item>
+        <item>plus</item>
+        <item>minus</item>
+        <item>&#160; point &#160;</item>
+        <item>power</item>
+        <item>tangent</item>
+        <item>sine</item>
+        <item>cosine</item>
+        <item>pi</item>
+        <item>equals</item>
+    </string-array>
+</resources>
